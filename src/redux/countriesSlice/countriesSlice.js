@@ -11,7 +11,7 @@ export const getAllCountries = createAsyncThunk('getCountries/countries', async 
   }
 });
 
-export const getCountry = createAsyncThunk('getCountry/countries', async (conde, thunkAPI) => {
+export const getCountry = createAsyncThunk('getCountry/countries', async (code, thunkAPI) => {
   try {
     const response = await axios.get(`https://restcountries.com/v3.1/alpha/${code}`);
     return response.data;
