@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { setRegion } from '../../redux/countriesSlice/countriesSlice';
+import worldMap from '../assets/img/worldMap.png';
 
 const Filter = () => {
   const [filter, setFilter] = useState('');
@@ -20,6 +21,7 @@ const Filter = () => {
 
   return (
     <div className="filter__container">
+      <img src={worldMap} alt="World map" height="150" width="250" />
       <div>
         <select
           name="selected"
