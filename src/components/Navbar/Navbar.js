@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import './Navbar.scss';
 import { MdOutlineArrowBackIosNew } from 'react-icons/md';
 import { FaHome, FaSearch } from 'react-icons/fa';
 import { FiSettings } from 'react-icons/fi';

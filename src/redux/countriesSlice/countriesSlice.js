@@ -87,6 +87,23 @@ export const countriesSlice = createSlice({
       message: action.payload,
       countriesData: [],
     }));
+    builder.addCase(getRegion.pending, (state) => ({
+      ...state,
+      isLoading: true,
+    }));
+    builder.addCase(getRegion.fulfilled, (state, action) => ({
+      ...state,
+      isLoading: false,
+      success: true,
+      countriesData: action.payload,
+    }));
+    builder.addCase(getRegion.rejected, (state, action) => ({
+      ...state,
+      isLoading: false,
+      error: true,
+      message: action.payload,
+      countriesData: [],
+    }));
   },
 });
 

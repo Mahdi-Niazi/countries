@@ -10,7 +10,7 @@ const Filter = () => {
 
   useEffect(() => {
     if (filter !== '') {
-      dispatch(setRegion(filter.toLocaleLowerCase()));
+      dispatch(setRegion(filter.toLowerCase()));
     }
   }, [dispatch, filter]);
 

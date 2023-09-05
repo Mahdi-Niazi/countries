@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { BsArrowRightCircle } from 'react-icons/bs';
@@ -9,13 +9,13 @@ import {
 
 const Country = () => {
   const { countriesData, isLoading, region } = useSelector(
-    (store) => store.Country,
+    (store) => store.country,
   );
   const dispatch = useDispatch();
 
   useEffect(() => {
     if (!countriesData.length) dispatch(getAllCountries());
-    if (region) dispatch(getRegion);
+    if (region) dispatch(getRegion(region));
   }, [dispatch, countriesData.length, region]);
 
   return (
