@@ -5,7 +5,7 @@
   
   <img src="logo.png" alt="Logo" width="100px" height="80px">  
   <h2> Mohammad Mahdi Niazi<h2> 
-  <h3><b>Holy Quran Book</b></h3>
+  <h3><b>Countries</b></h3>
 
 </div>
 
@@ -14,7 +14,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Holy Quran Book\] ](#-holy-quran-book-)
+- [📖 \[Countries \] ](#-countries--)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -33,8 +33,8 @@
 
 
 
-# 📖 [Holy Quran Book] <a name="about-project">
-  This website will provide you information about Holy Quran Book's chapters and the chapter's details
+# 📖 [Countries ] <a name="about-project">
+  This website will provide you information about all countries and show country details
 </a>
 ## 🛠 Built With <a name="built-with">
 **HTML**
@@ -47,9 +47,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Holy Quran Book Chapters**
-- **Chapter Details**
-- **Filter by Languages**
+- **All Countries**
+- **Country Details**
+- **Country Regions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,9 +73,9 @@
 ### Setup 
 
 1. Download the **Zip** file or clone the repo with:
-```bash git clone https://github.com/Mahdi-Niazi/holy-quran-book.git ``` 
+```bash git clone https://github.com/Mahdi-Niazi/countries.git ``` 
 1. To access cloned directory run: 
-```bash cd holy-quran-book``` 
+```bash cd countries``` 
 1. Open it with the live server 
 
 ### Install 
@@ -107,8 +107,8 @@ Test for Linters For tracking linter errors locally you need to follow these ste
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--  **Quran's Aya**
--  **Quran's Surah**
+-  **Country President Name**
+-  **Country Best places**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
