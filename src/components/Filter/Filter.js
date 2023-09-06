@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { setRegion } from '../../redux/countriesSlice/countriesSlice';
 import worldMap from '../assets/img/worldMap.png';
+import './Filter.scss';
 
 const Filter = () => {
   const [filter, setFilter] = useState('');

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCountry } from '../redux/countriesSlice/countriesSlice';
 import Navbar from '../components/Navbar/Navbar';
+import './Details.scss';
 
 const Details = () => {
   const { countrySearch } = useSelector((store) => store.country);
