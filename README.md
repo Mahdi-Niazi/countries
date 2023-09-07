@@ -35,7 +35,7 @@
 
 
 # 📖 [Countries ] <a name="about-project">
-  This website will provide you information about all countries and show country details
+  This website will list the countries all over the world and you can filter the countries by its regions and also when you click on flag of the country you can have more information about the country. 
 </a>
 ## 🛠 Built With <a name="built-with">
 **HTML**
