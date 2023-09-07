@@ -71,7 +71,7 @@ const Details = () => {
               <span>Map</span>
               <a
                 href={countrySearch[0].maps.googleMaps}
-                style={{ color: '#0050e4' }}
+                style={{ color: '#1d505b' }}
               >
                 Google Map
               </a>

@@ -19,6 +19,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [Loom Video ](#loom-video-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -38,7 +39,7 @@
 </a>
 ## 🛠 Built With <a name="built-with">
 **HTML**
-**CSS**
+**Sass**
 **React**
 **Redux**
 </a>
@@ -58,6 +59,10 @@
 
 - [Country Link](https://countries-2olp.onrender.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Loom Video <a name='Loom-Video'></a>
+
+- [Loom Video Link](https://www.loom.com/share/0bc1a50d5d01410a96c9cd361ce0c190?sid=b8d69bf1-4567-4070-80aa-67f651a6fb54)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
